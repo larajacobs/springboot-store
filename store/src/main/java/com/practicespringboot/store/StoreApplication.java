@@ -3,6 +3,9 @@ package com.practicespringboot.store;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Entry point for an application
+ */
 @SpringBootApplication
 public class StoreApplication {
 
