@@ -39,21 +39,15 @@ voucher-api/
 
 3. **Service Layer**
 
-   * You buy an electricity voucher at a till.
-   * The voucher code is generated, stored in the backend, and activated.
-   * When you load the code into your prepaid meter, it deducts and marks as redeemed.
+   * Talks to the repository and adds required data
 
 4. **Exceptions handling layer**
 
-   * You buy an electricity voucher at a till.
-   * The voucher code is generated, stored in the backend, and activated.
-   * When you load the code into your prepaid meter, it deducts and marks as redeemed.
+   * Handles issues gracefully when program fails
 
 5. **Entity Layer**
 
-   * You buy an electricity voucher at a till.
-   * The voucher code is generated, stored in the backend, and activated.
-   * When you load the code into your prepaid meter, it deducts and marks as redeemed.
+   * Creates the different 'tables' within the database.
 
 ## Control flow
 ```
